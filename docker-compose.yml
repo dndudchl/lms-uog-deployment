@@ -1,4 +1,4 @@
-Services:
+services:
   backend-flask:
     image: youngwoo2025/lms-backend:2.0.0 # Replace with your Docker Hub username
     ports:
