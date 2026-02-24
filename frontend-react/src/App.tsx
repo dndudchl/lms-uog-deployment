@@ -342,10 +342,20 @@ const App: React.FC = () => {
   }
   return (
     <div className="min-h-screen bg-gray-100">
+      <div className="bg-blue-100 px-4 py-2 rounded-lg border border-blue-200">
+                <span className="text-blue-800 font-bold">
+                    Student: Youngwoo Choi (ID: 25298753)
+                </span>
+            </div>
       {user && (
         <nav className="bg-white shadow-md p-4 mb-4">
           <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-xl font-bold">Learning Platform</h1>
+            <div className="bg-blue-100 px-4 py-2 rounded-lg border border-blue-200">
+                <span className="text-blue-800 font-bold">
+                    Student: Youngwoo Choi (ID: 25298753)
+                </span>
+            </div>
             <div className="flex items-center space-x-4">
               <span>{user.username} ({user.role})</span>
               <button
