@@ -19,7 +19,7 @@ services:
    context: ./frontend-react
    dockerfile: Dockerfile
    args:
-    - REACT_APP_API_URL=http://34.12.205.124:4000 # Replace your-ip with actual IP
+    - REACT_APP_API_URL=http://34.158.179.109:4000 # Replace your-ip with actual IP
   ports:
    - "80:80" # Changed to port 80 for Nginx
   depends_on:
